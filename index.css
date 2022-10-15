@@ -1,0 +1,135 @@
+/* Nav */
+nav img{
+    width: 54px;
+}
+nav ul li .nav-link{ 
+    font-family: 'Nunito Sans', sans-serif;
+    color: #11999E !important;
+}
+nav .navbar-brand{
+    padding-left: 10px;
+}
+main h1{
+    font-weight: 950;
+    padding-top: 5rem;
+    font-family: 'Nunito', sans-serif;
+}
+nav .nav-item .btn{
+    background-color: #11999E !important;
+    border-color: #11999E !important;
+}
+nav .container-fluid{
+    
+    background-color: transparent !important;
+}
+
+
+main section h4{
+    font-weight: bold;
+    font-style: italic;
+    color: #11999E;
+    font-family: 'Nunito Sans', sans-serif;
+}
+main p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+main .container-fluid{
+    box-shadow: 0px 2px 15px rgb(165, 165, 165);
+    background: linear-gradient(to right, #AFEFE3 , white 90%);
+}
+main .btn{
+    background-color: #E65924 !important;
+    border-color: #E65924 !important;
+    margin-bottom: 5rem;
+}
+.container-fluid .container{
+    display: flex;
+}
+main section{
+    float: left;
+}
+main aside img{
+    padding-top: 10px;
+    float: right;
+    width: 85%;
+}
+.fitur{
+    margin-top: 50px;
+    background: linear-gradient(white, #addfd5);
+    
+}
+.fitur .container h2{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+.fitur .fitur-atas{
+    padding-top: 30px;
+    display: flex;
+}
+.fitur .fitur-bawah{
+    padding-bottom: 100px;
+    display: flex;
+}
+main .fitur .content h4{
+    font-family: 'Nunito', sans-serif;
+}
+.fitur1{
+    width: 50%;
+    display: flex;
+}
+.fitur2{
+    width: 50%;
+    display: flex;
+}
+.fitur3{
+    width: 50%;
+    display: flex;
+}
+.fitur4{
+    width: 50%;
+    display: flex;
+}
+.fitur img{
+    height: 100px;
+}
+.content{
+    padding: 10px;
+}
+
+
+/* Footer */
+footer .kiri img{
+    width: 75px;
+} 
+footer .kanan img{
+    width: 110px;
+}
+footer .container-fluid{
+    padding-top: 20px;
+    background-color: #40514E;
+    display: flex;
+}
+footer .kanan{
+    color: aliceblue;
+    width: 33%;
+}
+footer .kiri{
+    color: aliceblue;
+    width: 33%;
+}
+footer .tengah{
+    color: aliceblue;
+    width: 33%;
+}
+footer .kiri h5{
+    padding-top: 10px;
+    color: #11999E;
+}
+footer .kiri .medsos{
+    color: aliceblue;
+} 
+footer .container-fluid{
+    padding-bottom: 10px;
+}

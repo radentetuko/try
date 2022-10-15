@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/* Nav */
+nav img{
+    width: 54px;
+}
+nav ul li .nav-link{ 
+    font-family: 'Nunito Sans', sans-serif;
+    color: #11999E !important;
+}
+nav .navbar-brand{
+    padding-left: 10px;
+}
+nav .nav-item .btn{
+    background-color: #11999E !important;
+    border-color: #11999E !important;
+}
+nav .container-fluid{
+    background-color: transparent !important;
+}
+
+/* Main */
+main .container-fluid{
+    background: linear-gradient(white, #DCF8F8);
+    padding-bottom: 100px;
+}
+main .container {
+    background-color: white;
+    position: relative;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    border-radius: 24px;
+    box-shadow: 0px 0px 20px #B2C5C1;
+}
+main .container .kiri{
+    width: 50%;
+    border-radius: 24px 0 0 24px;
+    background-color: #DCF8F8;
+    }
+main .container .kiri img{
+    display: block;
+    align-items: center;
+    width: 476px;
+    padding: 20px;
+}
+main .container .kanan{
+    text-decoration: none;
+    padding-bottom: 30px;
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 20px;
+}
+main .container .kanan img{
+    width: 64px;
+}
+h1,h2,#Privacy,#Terms,#daftar{
+    font-weight: bold;
+    color: #11999E;
+    text-decoration: none;
+}
+.kanan h5{
+    color: #11999E;
+}
+.kanan form #login{
+    border-radius: 12px;
+    border-color: #8a8a8a;
+    font-weight: 900;
+    width: 100%;
+    background-color: #8a8a8a !important;
+    box-shadow: 2px 3px 4px #555555
+}
+.kanan form #google{
+    border-radius: 12px;
+    border-color: #8a8a8a;
+    color: #8a8a8a;
+    width: 100%;
+    background-color: transparent !important;
+}
+.kanan form #facebook{
+    border-radius: 12px;
+    border-color: #8a8a8a;
+    color: #8a8a8a;
+    width: 100%;
+    background-color: transparent !important;
+}
+.kanan form{
+    width: 440px;
+}
+
+/* Footer */
+footer .kiri img{
+    width: 75px;
+} 
+footer .kanan img{
+    width: 110px;
+}
+footer .container-fluid{
+    padding-top: 20px;
+    background-color: #40514E;
+    display: flex;
+}
+footer .kanan{
+    color: aliceblue;
+    width: 33%;
+}
+footer .kiri{
+    color: aliceblue;
+    width: 33%;
+}
+footer .tengah{
+    color: aliceblue;
+    width: 33%;
+}
+footer .kiri h5{
+    padding-top: 10px;
+    color: #11999E;
+}
+footer .kiri .medsos{
+    color: aliceblue;
+} 
+footer .container-fluid{
+    padding-bottom: 10px;
+}
