@@ -1,7 +1,7 @@
-body{
+*{
+    font-family: 'Nunito Sans', sans-serif;
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
 /* Nav */
 nav img{
@@ -37,14 +37,16 @@ main .container {
     box-shadow: 0px 0px 20px #B2C5C1;
 }
 main .container .kiri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     border-radius: 24px 0 0 24px;
     background-color: #DCF8F8;
     }
 main .container .kiri img{
-    display: block;
     align-items: center;
-    width: 476px;
+    width: 100%;
     padding: 20px;
 }
 main .container .kanan{
@@ -52,18 +54,22 @@ main .container .kanan{
     padding-bottom: 30px;
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
     padding-top: 20px;
 }
-main .container .kanan img{
+main header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+main .container .kanan header img{
     width: 64px;
 }
-h1,h2,#Privacy,#Terms,#daftar{
+header h3,h4,#Privacy,#Terms,#daftar{
     font-weight: bold;
     color: #11999E;
     text-decoration: none;
-}
-.kanan h5{
-    color: #11999E;
 }
 .kanan form #login{
     border-radius: 12px;
@@ -71,26 +77,61 @@ h1,h2,#Privacy,#Terms,#daftar{
     font-weight: 900;
     width: 100%;
     background-color: #8a8a8a !important;
-    box-shadow: 2px 3px 4px #555555
+}
+.kanan form #login:hover{
+    background-color: #11999E !important;
+    border-color: #11999E !important;
+    box-shadow: 2px 3px 5px rgb(39, 39, 39);
 }
 .kanan form #google{
     border-radius: 12px;
-    border-color: #8a8a8a;
     color: #8a8a8a;
     width: 100%;
     background-color: transparent !important;
+    border-color: #11999E;;
+}
+.kanan form #google:hover{
+    color: white;
+    background-color:  #11999E !important;
+    box-shadow: 2px 3px 5px rgb(39, 39, 39);
 }
 .kanan form #facebook{
     border-radius: 12px;
-    border-color: #8a8a8a;
+    border-color: #11999E;
     color: #8a8a8a;
     width: 100%;
     background-color: transparent !important;
 }
-.kanan form{
-    width: 440px;
+.kanan form #facebook:hover{
+    color: white;
+    background-color:  #11999E !important;
+    box-shadow: 2px 3px 5px rgb(39, 39, 39);
 }
-
+.kanan form{
+    width: 100%;
+}
+#emailStatus{
+    color: red;
+}
+#passwordStatus{
+    color: red;
+}
+@media only screen and (max-width: 767px){
+    main .container .kiri{
+        display: none;
+        }
+    main .container .kanan{
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container .kanan header{
+        display: flex;
+        justify-content: center;
+    }
+}
 /* Footer */
 footer .kiri img{
     width: 75px;
@@ -99,6 +140,7 @@ footer .kanan img{
     width: 110px;
 }
 footer .container-fluid{
+    display: flex;
     padding-top: 20px;
     background-color: #40514E;
     display: flex;
@@ -106,6 +148,9 @@ footer .container-fluid{
 footer .kanan{
     color: aliceblue;
     width: 33%;
+}
+footer .kanan h5{
+    color: aliceblue;
 }
 footer .kiri{
     color: aliceblue;
@@ -124,4 +169,7 @@ footer .kiri .medsos{
 } 
 footer .container-fluid{
     padding-bottom: 10px;
+}
+footer h5{
+    font-weight: bold;
 }
