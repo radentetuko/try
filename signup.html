@@ -30,22 +30,7 @@
             <div class="collapse navbar-collapse text-right" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Makanan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tracking Kalori</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tracking Diet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dampak Karbon</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-bell"></i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a>
+                        <a class="btn btn-primary" href="login.html">Masuk</a>
                     </li>
                 </ul>
             </div>
@@ -58,43 +43,43 @@
                 <h4>Buat Akun</h4>
                 <p>Daftar untuk memulai menggunakan CalCare</p>
             </header>
-            <form>
-                <div class="container">
+            <form role="form">
+                <div class=" container">
                     <div class="formKiri">
                         <div class="mb-3">
                             <label for="nama" class="form-label">
-                                <h6>Nama Lengkap</h6>
+                                <h6>Nama</h6>
                             </label>
-                            <input type="text" class="form-control" id="nama" style="border-color: #11999E;"
-                                placeholder="Nama Lengkap" required>
+                            <input type="text" class="form-control" id="nama" name="nama" style="border-color: #11999E;"
+                                placeholder="Nama" required>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">
                                 <h6>Email</h6>
                             </label>
-                            <input type="email" class="form-control" id="email" style="border-color: #11999E;"
-                                placeholder="Email" required>
+                            <input type="email" class="form-control" id="email" name="email"
+                                style="border-color: #11999E;" placeholder="Email" required>
                         </div>
                         <div class="mb-3">
                             <label for="nomorTelepon" class="form-label">
                                 <h6>Nomor Telepon</h6>
                             </label>
-                            <input type="text" class="form-control" id="nomorTelepon" style="border-color: #11999E;"
-                                placeholder="Nomor Telepon" required>
+                            <input type="text" class="form-control" id="nomorTelepon" name="nomorTelepon"
+                                style="border-color: #11999E;" placeholder="Nomor Telepon" required>
                         </div>
                         <div class="mb-3">
                             <label for="pass" class="form-label">
                                 <h6>Password</h6>
                             </label>
-                            <input type="password" class="form-control" id="pass" style="border-color: #11999E;"
-                                placeholder="Password" required>
+                            <input type="password" class="form-control" id="pass" name="pass"
+                                style="border-color: #11999E;" placeholder="Password" required>
                         </div>
                         <div class="mb-3">
                             <label for="confirmPass" class="form-label">
                                 <h6>Konfirmasi Password</h6>
                             </label>
-                            <input type="password" class="form-control" id="confirmPass" style="border-color: #11999E;"
-                                placeholder="Konfirmasi Password" required>
+                            <input type="password" class="form-control" id="confirmPass" name="confirmPass"
+                                style="border-color: #11999E;" placeholder="Konfirmasi Password" required>
                         </div>
                     </div>
                     <div class="formKanan">
@@ -102,53 +87,54 @@
                             <label for="kelamin" class="form-label">
                                 <h6>Jenis Kelamin</h6>
                             </label>
-                            <select class="form-select" id="kelamin" style="border-color: #11999E;color: grey;">
+                            <select class="form-select" id="kelamin" name="kelamin"
+                                style="border-color: #11999E;color: grey;">
                                 <option selected>Pilih Jenis Kelamin</option>
-                                <option value="1">Laki - Laki</option>
-                                <option value="2">Perempuan</option>
+                                <option value="Laki - Laki">Laki - Laki</option>
+                                <option value="Perempuan">Perempuan</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label for="tinggi" class="form-label">
                                 <h6>Tinggi Badan (Cm)</h6>
                             </label>
-                            <input type="text" class="form-control" id="tinggi" style="border-color: #11999E;"
-                                placeholder="Tinggi Badan" required>
+                            <input type="text" class="form-control" id="tinggi" name="tinggi"
+                                style="border-color: #11999E;" placeholder="Tinggi Badan" required>
                         </div>
                         <div class="mb-3">
                             <label for="berat" class="form-label">
                                 <h6>Berat Badan (Kg)</h6>
                             </label>
-                            <input type="text" class="form-control" id="berat" style="border-color: #11999E;"
-                                placeholder="Berat Badan" required>
+                            <input type="text" class="form-control" id="berat" name="berat"
+                                style="border-color: #11999E;" placeholder="Berat Badan" required>
                         </div>
                         <div class="mb-3">
                             <label for="umur" class="form-label">
                                 <h6>Umur (Tahun)</h6>
                             </label>
-                            <input type="text" class="form-control" id="umur" style="border-color: #11999E;"
+                            <input type="text" class="form-control" id="umur" name="umur" style="border-color: #11999E;"
                                 placeholder="Umur" required>
                         </div>
                         <div class="mb-3">
                             <label for="aktivitas" class="form-label">
                                 <h6>Aktivitas Fisik</h6>
                             </label>
-                            <select class="form-select" id="aktivitas" style="border-color: #11999E;color: grey;"
-                                required>
+                            <select class="form-select" id="aktivitas" name="aktivitas"
+                                style="border-color: #11999E;color: grey;" required>
                                 <option selected>Pilih Aktivitas Fisik</option>
-                                <option value="1">Sering Berolahraga</option>
-                                <option value="2">Jarang Berolahraga</option>
-                                <option value="3">Tidak Pernah Berolahraga</option>
+                                <option value="Sering Berolahraga">Sering Berolahraga</option>
+                                <option value="Jarang Berolahraga">Jarang Berolahraga</option>
+                                <option value="Tidak Pernah Berolahraga">Tidak Pernah Berolahraga</option>
                             </select>
                         </div>
                     </div>
                 </div>
 
-                <button type="submit" class="btn btn-info mb-3 mt-2" id="signup">Daftar</button>
-                <h6 style="font-weight: bold;">Atau</h6>
-                <button type="submit" class="btn btn-info mb-3" id="google"><i class="bi bi-google"></i>
+                <button class="btn btn-info mb-3 mt-2" id="signUp" onclick="signUp(event)">Daftar</button>
+                <h6 style="font-weight: bold; color: gray;">Atau</h6>
+                <button class="btn btn-info mb-3" id="google"><i class="bi bi-google"></i>
                     SignUp with Google</button>
-                <button type="submit" class="btn btn-info mb-3" id="facebook"><i class="bi bi-facebook"></i>
+                <button class="btn btn-info mb-3" id="facebook"><i class="bi bi-facebook"></i>
                     SignUp with Facebook</button>
                 <p>Sudah Punya Akun? <a href="login.html" id="masuk">Masuk</a></p>
             </form>
@@ -188,6 +174,36 @@
             </div>
         </div>
     </footer>
+
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <script type="text/javascript">
+        document.getElementById('signUp').onclick = e => {
+            var nama = document.getElementById('nama').value;
+            var email = document.getElementById('email').value;
+            var nomorTelepon = document.getElementById('nomorTelepon').value;
+            var pass = document.getElementById('pass').value;
+            var confirmPass = document.getElementById('confirmPass').value;
+            var kelamin = document.getElementById('kelamin').value;
+            var tinggi = document.getElementById('tinggi').value;
+            var berat = document.getElementById('berat').value;
+            var umur = document.getElementById('umur').value;
+            var aktivitas = document.getElementById('aktivitas').value;
+
+            localStorage.setItem('nama', nama);
+            localStorage.setItem('email', email);
+            localStorage.setItem('nomorTelepon', nomorTelepon);
+            localStorage.setItem('pass', pass);
+            localStorage.setItem('confirmPass', confirmPass);
+            localStorage.setItem('kelamin', kelamin);
+            localStorage.setItem('tinggi', tinggi);
+            localStorage.setItem('berat', berat);
+            localStorage.setItem('umur', umur);
+            localStorage.setItem('aktivitas', aktivitas);
+            e.preventDefault();
+            location.href = "login.html"
+            alert("Daftar akun  berhasil, silahkan login untuk masuk ke dalam aplikasi")
+        }
+    </script>
 
     <script>
         window.onscroll = function () {

@@ -78,6 +78,9 @@ form button{
     align-items: center;
     width: 50%;
 }
+#massage{
+    color: red;
+}
 #signup{
     color: white !important;
     background-color: grey !important;
